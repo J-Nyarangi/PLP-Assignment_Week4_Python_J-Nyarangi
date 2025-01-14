@@ -17,32 +17,19 @@ A simple Python utility that reads text files and creates modified versions with
 
 ## Installation
 
-1. Download the `file_processor.py` script
-2. No additional packages are required
+1. Download the `filehandling.py` script
 
 ## Usage
 
 1. Run the program:
 ```bash
-python file_processor.py
+python filehandling.py
 ```
 
 2. When prompted:
    - Enter the name of the file you want to process
    - Enter the name for the output file
    - Type 'quit' at any time to exit
-
-Example session:
-```
-=== File Processing Program ===
-This program will read a file and create an uppercase version.
-
-Enter input filename (or 'quit'): input.txt
-Enter output filename: output.txt
-
-Success! First 100 characters of output.txt:
-HELLO WORLD! THIS IS A TEST FILE...
-```
 
 ## Error Handling
 
@@ -52,20 +39,6 @@ The program handles several common errors:
 - Other file operation errors
 
 Error messages are user-friendly and clearly indicate what went wrong.
-
-## Example Files
-
-Input file (`input.txt`):
-```
-Hello World!
-This is a test file.
-```
-
-Output file (`output.txt`):
-```
-HELLO WORLD!
-THIS IS A TEST FILE.
-```
 
 ## Tips
 
@@ -80,4 +53,4 @@ Feel free to fork this project and submit improvements via pull requests.
 
 ## License
 
-This project is open source and available for educational purposes.
+MIT.
